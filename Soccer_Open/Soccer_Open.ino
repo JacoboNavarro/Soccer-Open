@@ -1,5 +1,6 @@
 void setup() {
 
+Serial.begin();
   //ponte a jalar plis :((((  
   //No perro
   
@@ -9,5 +10,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+Serial.println("hola");
 
 }
